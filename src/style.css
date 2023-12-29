@@ -1,0 +1,99 @@
+/* *gambar latar body */
+body {
+  background-color: #1f1d2c;
+}
+
+/* * bagian navbar */
+.navbar {
+  margin-top: -20px;
+  margin-left: -8px;
+  margin-bottom: 38px;
+  background-color: #9ade7b;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.logo {
+  font-family: "Helvetica", sans-serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: white;
+}
+
+.menu {
+  list-style-type: none;
+  padding-right: 40px;
+}
+
+.menu li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.menu li:first-child {
+  margin-left: 0;
+}
+
+.menu li a {
+  text-decoration: none;
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: large;
+  font-family: "Helvetica", sans-serif;
+  cursor: pointer;
+}
+.menu li a:hover {
+  background-color: darkorange;
+}
+
+/* * konten kontainer */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* * tampil makanan */
+.info {
+  width: 45%;
+}
+.info h2 {
+  font-family: "Helvetica", sans-serif;
+  color: #ea906c;
+}
+.info p {
+  font-family: "Helvetica", sans-serif;
+  color: #eee2de;
+}
+.info ul li {
+  font-family: "Helvetica", sans-serif;
+  color: #eee2de;
+}
+
+.food-image {
+  width: 45%;
+}
+
+.food-image img {
+  border-radius: 5px;
+  max-width: 480px;
+  height: 480px;
+}
+
+.food-image p {
+  font-family: "Helvetica", sans-serif;
+  font-size: small;
+  color: #eee2de;
+}

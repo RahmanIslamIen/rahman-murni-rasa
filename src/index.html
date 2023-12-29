@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Simple Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- bagian navbar -->
+    <nav class="navbar">
+      <div class="logo">Sedia Resep</div>
+      <ul class="menu">
+        <li><a href="#semua-kategori">Seluruh Kategori</a></li>
+      </ul>
+    </nav>
+
+    <!-- Data akan ditampilkan di sini -->
+    <div id="mealInfo"></div>
+
+    <!-- semua kategori makanan -->
+    <h2
+      style="font-family: Arial, Helvetica, sans-serif; color: #ea906c"
+      class="container"
+      id="semua-kategori"
+    >
+      Seluruh kategori
+    </h2>
+    <my-card id="categories"></my-card>
+
+    <script src="index.js"></script>
+  </body>
+</html>
